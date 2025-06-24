@@ -34,7 +34,7 @@ To keep discussions productive:
 
 ## Contact & Resources
 - [Official Godot Website](https://godotengine.org/)
-- [Godot Asset Store](https://store.godotengine.org)
+- [Godot Asset Store](https://store-beta.godotengine.org)
 - [Godot Forums](https://forum.godotengine.org/)
 
 Thank you for helping improve the Godot Asset Store!
