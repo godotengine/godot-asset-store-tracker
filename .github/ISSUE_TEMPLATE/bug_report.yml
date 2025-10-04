@@ -11,6 +11,7 @@ body:
   - type: textarea
     id: description
     attributes:
+      label: Description
       placeholder: Briefly describe the unexpected behavior.
     validations:
       required: true
@@ -18,6 +19,7 @@ body:
   - type: textarea
     id: expected
     attributes:
+      label: Expected Behavior
       placeholder: What did you expect to happen?
     validations:
       required: true
@@ -25,6 +27,7 @@ body:
   - type: textarea
     id: actual
     attributes:
+      label: Actual Behavior
       placeholder: What actually happened instead?
     validations:
       required: true
@@ -32,6 +35,7 @@ body:
   - type: textarea
     id: steps
     attributes:
+      label: Steps to Reproduce
       placeholder: List the steps to reproduce the issue.
     validations:
       required: true
@@ -39,6 +43,7 @@ body:
   - type: textarea
     id: screenshots
     attributes:
+      label: Screenshots
       placeholder: Add screenshots (optional)
     validations:
       required: false
@@ -46,6 +51,7 @@ body:
   - type: input
     id: browser
     attributes:
+      label: Browser and Version
       placeholder: Browser and version (optional)
     validations:
       required: false
@@ -53,6 +59,7 @@ body:
   - type: textarea
     id: additional_notes
     attributes:
+      label: Additional Notes
       placeholder: Additional notes (optional)
     validations:
       required: false

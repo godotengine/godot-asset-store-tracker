@@ -5,6 +5,7 @@ body:
   - type: textarea
     id: description
     attributes:
+      label: Feature Description
       placeholder: Briefly describe the feature or improvement you would like to see.
     validations:
       required: true
@@ -12,6 +13,7 @@ body:
   - type: textarea
     id: benefit
     attributes:
+      label: Benefit
       placeholder: Explain the benefit or value of this feature.
     validations:
       required: true
@@ -19,6 +21,7 @@ body:
   - type: textarea
     id: examples
     attributes:
+      label: Examples or Mockups
       placeholder: Provide examples or mockups (optional).
     validations:
       required: false
@@ -26,6 +29,7 @@ body:
   - type: textarea
     id: additional_notes
     attributes:
+      label: Additional Notes
       placeholder: Additional notes (optional).
     validations:
       required: false
