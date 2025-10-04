@@ -1,0 +1,68 @@
+name: Bug Report
+description: Report unexpected behavior in the Godot Asset Store
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bug Report  
+        Please fill out the following details to help us identify and fix the issue.
+
+  - type: textarea
+    id: description
+    attributes:
+      placeholder: Briefly describe the unexpected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      placeholder: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      placeholder: What actually happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      placeholder: List the steps to reproduce the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      placeholder: Add screenshots (optional)
+    validations:
+      required: false
+
+  - type: input
+    id: browser
+    attributes:
+      placeholder: Browser and version (optional)
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      placeholder: Additional notes (optional)
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before submitting...
+      options:
+        - label: I have searched existing issues to avoid duplicates
+          required: true
+        - label: I have provided all necessary information for reproduction
+          required: true
