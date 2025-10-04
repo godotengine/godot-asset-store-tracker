@@ -1,0 +1,41 @@
+name: Feature Request
+description: Suggest a new feature or improvement for the Godot Asset Store
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      placeholder: Briefly describe the feature or improvement you would like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      placeholder: Explain the benefit or value of this feature.
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      placeholder: Provide examples or mockups (optional).
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      placeholder: Additional notes (optional).
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before submitting...
+      options:
+        - label: I have searched existing feature requests to avoid duplicates
+          required: true
+        - label: I have provided enough information to understand the suggestion
+          required: true
